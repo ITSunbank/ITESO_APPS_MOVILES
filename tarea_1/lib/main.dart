@@ -34,6 +34,13 @@ class _CardExampleState extends State<CardExample> {
         _iconColors[index] = Colors.black;
       }
     });
+
+    // Mostrar un Snackbar al cambiar el color
+    final snackBar = SnackBar(
+      content: Text('Hola profe'),
+      duration: Duration(seconds: 2),
+    );
+    ScaffoldMessenger.of(context).showSnackBar(snackBar);
   }
 
   @override
