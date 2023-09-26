@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'recipeview.dart'; // Importa el archivo recipeview.dart
-
+import 'recipeview.dart'; 
 void main() {
   runApp(MyApp());
 }
@@ -85,7 +84,7 @@ class MyApp extends StatelessWidget {
                 child: Stack(
                   children: [
                     Container(
-                      height: 150, // Ajusta la altura deseada
+                      height: 150,
                       decoration: BoxDecoration(
                         image: DecorationImage(
                           image: AssetImage(recipes[index].imageUrl),

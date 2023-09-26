@@ -95,7 +95,7 @@ class _RecipeViewState extends State<RecipeView> {
                      color: Color.fromARGB(255, 88, 85, 80),
                   ),
                 ),
-                // Aquí puedes mostrar más detalles de la receta si lo deseas
+          
               ],
             ),
           ),
